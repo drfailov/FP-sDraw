@@ -1,0 +1,105 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <supports-screens android:anyDensity="true" />
+
+    <!-- Change: 1) manifest 2) strings 3) module gradle-->
+    <!--        android:icon="@mipmap/ic_launcher_pro"-->
+    <!--        android:icon="@mipmap/ic_launcher"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_pro"
+        tools:replace="android:icon"
+        android:label="@string/app_name"
+        android:fullBackupContent="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:localeConfig="@xml/locales_config">
+		
+		<activity
+            android:name="com.fsoft.FP_sDraw.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/SplashTheme"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="@string/menuInsert">
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/jpeg"/>
+            </intent-filter>
+        </activity>
+        <!-- configChanges Требуется для того чтобы программа не стирала данные при повороте, благодаря чему созхраняются все данные-->
+        <activity
+            android:name="com.fsoft.FP_sDraw.FileSelector"
+            android:theme="@style/SplashTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_openfile">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.TextInput"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/SplashTheme"
+            android:label="@string/title_add_text">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.AboutActivity"
+            android:theme="@style/SplashTheme"
+            android:label="О программе">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.ImageInserter"
+            android:theme="@style/SplashTheme"
+            android:label="Позиционирование изображения">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.ImageCropper"
+            android:theme="@style/SplashTheme"
+            android:label="Сохранение фрагмента">
+            <!--intent-filter android:label="@string/menuCrop">
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/jpeg"/>
+            </intent-filter-->
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.SettingsScreen"
+            android:theme="@style/SplashTheme"
+            android:label="Знакомство с программой">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.OtherSettings"
+            android:label="Знакомство с программой"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.TestActivity"
+            android:label="Тестирование нового функционала">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.EasterEggScreen"
+            android:screenOrientation="portrait"
+            android:label="Пасхалка">
+        </activity>
+        <activity
+            android:name="com.fsoft.FP_sDraw.FullVersionInfoActivity"
+            android:theme="@style/SplashTheme"
+            android:label="@string/title_pro_info">
+        </activity>
+    </application>
+
+</manifest>

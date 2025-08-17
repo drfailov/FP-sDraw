@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#273238">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:src="@mipmap/ic_launcher" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/app_name"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/version"
+                    android:textSize="14dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/aboutText"
+            android:textSize="14dp"
+            android:textColor="#ffffff"/>
+
+        <com.fsoft.FP_sDraw.menu.AnimatedButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringMenu"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button_menu"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Fsoft Production, 2012-2023\nMade in Ukraine"
+            android:gravity="right"
+            android:id="@+id/textViewCopyright"
+            android:layout_marginTop="10dp"
+            android:textColor="#CCCCCC"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</ScrollView>

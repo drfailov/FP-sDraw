@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Change: 1) manifest 2) strings 3) module gradle-->
+  <!--  paid-->
+  <string name="app_name" translatable="false">FP sDraw Pro</string>
+  <string name="paid" translatable="false">+</string>
+
+  <!-- free-->
+<!--  <string name="app_name" translatable="false">FP sDraw</string>-->
+<!--  <string name="paid" translatable="false">no</string>-->
+
+  <string name="version" translatable="false">7.6 RC1</string>
+  <string name="developer"><b>Developer:</b>
+    \n\t   Dr. Failov
+    \n<b>Help in developing:</b>
+    \n\t - Polyasha00  <i>(interface tips)</i>;
+    \n\t - Megabozyakorovka  <i>(testing)</i>;
+    \n\t - Tatius <i>(suggestions, testing)</i>;
+    \n\t - Orange197 <i>(testing, suggestions)</i>;
+    \n\t - Plaxeen <i>(testing, suggestions)</i>;
+    \n\t - Messer <i>(testing, suggestions)</i>;
+    \n\t - DanaSemaniv <i>(testing, grammar)</i>;
+    \n\t - Carol Angelo <i>(translate to Portuguese)</i>;
+    \n\t - MiracleGuardian <i>(testing, grammar)</i>;
+    \n\t - Ckpe4 <i>(testing, suggestions)</i>;
+    \n\t - MaximSmel <i>(testing, grammar)</i>;
+    \n\t - Kara <i>(testing, suggestions, inspiration)</i>;
+    \n\t - NikolasBrind <i>(testing)</i>;
+    \n\t - SakhNYAshA <i>(suggestions, inspiration)</i>;
+    \n\t - Irsy <i>(suggestions)</i>;
+    \n\t - MeryLEN <i>(grammar)</i>.
+  \n</string>
+
+  <string name="menuOpen">Open</string>
+  <string name="menuSave">Save</string>
+  <string name="menuInsert">Insert</string>
+  <string name="menuUndo">Undo</string>
+  <string name="menuRedo">Redo</string>
+  <string name="menuClear">Clear</string>
+  <string name="menuSettings">Settings</string>
+  <string name="menuAbout">About</string>
+  <string name="saveMenuCancel">Cancel</string>
+  <string name="openSave">Saves</string>
+  <string name="openAutosave">Autosaves</string>
+  <string name="insertUnsupported">This source is not supported. Try using another gallery app.</string>
+  <string name="undoEnd">There\'s nothing to undo</string>
+  <string name="undoEndMaximum">Maximum number of undo\'s reached</string>
+  <string name="redoEnd">Nothing to redo</string>
+
+  <string name="instrumentBrush">Brush</string>
+  <string name="instrumentEraser">Eraser</string>
+  <string name="instrumentFilling">Filling</string>
+  <string name="instrumentText">Text input</string>
+  <string name="instrumentFigure">Figures</string>
+  <string name="instrumentLine">Line</string>
+  <string name="instrumentScale">Scaling</string>
+  <string name="instrumentPipette">Pipette</string>
+  <string name="instrumentAccurate">Accurate brush</string>
+
+  <string name="settingsBrushcolor">Brush color</string>
+  <string name="settingsBrushcolorOther">Other</string>
+  <string name="settingsBackgroundcolor">Background color</string>
+  <string name="settingsSwap">Swap colors</string>
+  <string name="settingsBrushsize">Brush size</string>
+  <string name="settingsErasersize">Eraser size</string>
+  <string name="settingsGridsize">Grid size</string>
+  <string name="settingsGridVertical">Vertical grid</string>
+  <string name="settingsGridsizeTip">The grid helps to simulate lines like in the notebook. Here you can choose grid size. A zero value will disable the grid.</string>
+  
+  <string name="settingsBrushsizeManagement">Manage thickness of brush</string>
+  <string name="settingsPressure">Pressure</string>
+  <string name="settingsPressureTip">The more you press on the screen, the bolder the line is. Not all devices support this function</string>
+  <string name="settingsManageMethodSize">Size</string>
+  <string name="settingsManageMethodSizeTip">The bigger spot of your touch, the bolder the line is. Not all devices support this function</string>
+  <string name="settingsSpeed">Speed</string>
+  <string name="settingsSpeedTip">The faster you draw, the thinner the line is</string>
+  <string name="settingsSpeedInverse">Speed inverse</string>
+  <string name="settingsSpeedInverseTip">The faster you draw, the bolder the line is</string>
+  <string name="settingsConstant">Constant</string>
+  <string name="settingsConstantTip">The thickness of the line does not change</string>
+  
+  <string name="settingsProcessing">Draw processing</string>
+  <string name="settingsAntialiasing">Antialiasing</string>
+  <string name="settingsAntialiasingTip">Smoothes the edge of drawn lines</string>
+  <string name="settingsSmoothing">Smoothing jerks</string>
+  <string name="settingsSmoothingTip">If you draw quickly, line becomes broken. This function will try to smooth it a little</string>
+  <string name="settingsSmoothingSensivity">Smoothing sensivity</string>
+  <string name="settingsSmoothingSensivityTip">Determines, how accurate to draw your actions.
+    \n(10) - the smoothest line, can be not very accurate;
+    \n(100) - the most accurate line, but can be not very smooth;
+    \n(30) - default value.
+  </string>
+  <string name="settingsAddWatermark">Add \"sDraw\" watermark to pictures</string>
+  <string name="settingsAddWatermarkTip">Almost invisible \"sDraw\" mark will appear at the bottom right corner of picture</string>
+  
+  <string name="settingsInterface">Interface</string>
+  <string name="settingsInterfaceTip">Configuring user interface</string>
+  <string name="settingsShowInstrumentsSelector">Show instrument selector</string>
+  <string name="settingsShowColorsSelector">Show color selector</string>
+  <string name="settingsShowInstrumentsSelectorTip">Allows to change instrument by clicking button on painting</string>
+  <string name="settingsShowColorsSelectorTip">Display the circle with the brush color selection.
+    Palette can be moved, the placement of the colors is adapted to the new location.
+    Long click on the palette opens the color picker.
+    Long press on color changes the background color
+  </string>
+  <string name="settingsShowOnScreenMenuButton">Show on-screen menu button</string>
+  <string name="settingsShowOnScreenMenuButtonTip">On-screen menu button is provided for devices which doesn\'t have hardware menu button. Disable this option, if your device has this button</string>
+  <string name="settingsStatusBar">Status Bar</string>
+  <string name="settingsStatusBarTip">Show status bar at the top of the screen (clock, alert icons). This setting will be applied after restart</string>
+  <string name="settingsMenuStrip">Menu strip</string>
+  <string name="settingsMenuStripTip">Show menu with instruments at the bottom of the screen.</string>
+  <string name="settingsPaletteStrip">Palette strip</string>
+  <string name="settingsPaletteStripTip">Show scrollable palette at the bottom of the screen.</string>
+
+  <string name="settingsBehaviour">Behaviour</string>
+  <string name="settingsBackKeyUndo">\"Back\" key undo</string>
+  <string name="settingsBackKeyUndoTip">Program will undo your last change when you click the \"back\" button once</string>
+  <string name="SettingsVolumeKeys">Intercept volume buttons</string>
+  <string name="SettingsVolumeKeysHint">Use the volume buttons while drawing.
+    If this option is enabled, you can not control the volume while drawing,
+    but you can get an access to the frequently used functions
+  </string>
+  <string name="settingsKeepScreenOn">Keep screen ON</string>
+  <string name="settingsKeepScreenOnTip">Display will be enabled while canvas is opened. This setting will be applied after restart</string>
+  <string name="settingsMaximimBrightness">Maximum brightness</string>
+  <string name="settingsMaximimBrightnessTip">Screen backlight will work with maximum brightness while canvas is opened. This setting will be applied after restart</string>
+
+  <string name="settingsSamsung">Special devices settings</string>
+  <string name="fingerHovering">Detect hovering finger</string>
+  <string name="fingerHoveringTip">Program will draw pointer where your finger is hovering over the screen.
+    This feature works only with some Samsung phones. 
+    This feature requires ROOT access.
+  </string>
+  <string name="useOnlySPen">Use only digital pen</string>
+  <string name="settingsEinkCrear">E-ink screen cleaning</string>
+  <string name="settingsEinkCrearTip">Screen will blink to black and white multipe times while cleaning drawing.
+    It is needed to prevent image glitching on e-ink screens
+  </string>
+
+  <string name="settingsRotate">Rotate the canvas</string>
+  <string name="settingsHorizontal">Landscape</string>
+  <string name="settingsVertical">Portrait</string>
+  <string name="settingsAuto">Auto</string>
+
+  <string name="settingsOthers">Other settings</string>
+  <string name="settingsOthersDeveloper">For developer</string>
+  <string name="settingsOthersDeveloperDebug">Debug messages</string>
+  <string name="settingsOthersDeveloperDebugTip">Display additional information on top of the program interface.</string>
+  <string name="settingsOthersDeveloperResetPressure">Reset the pressure coefficient</string>
+  <string name="settingsOthersDeveloperResetPressureMessage">Coefficient cleared</string>
+  <string name="settingsOthersDeveloperResetPressureTip">If the mode of brush managed by strength of the pressure reacts poorly at changing the force of the pressure, try to reset the value of the control coefficient.
+    If it doesn\'t help, most likely that your device hardware doesn\'t support this option
+  </string>
+
+  <string name="settingsFirstHelpTopHeader">First recommendations</string>
+  <string name="settingsFirstHelpTop0">(+) Hold \"Volume +\" button for eraser</string>
+  <string name="settingsFirstHelpTop1">(-) Hold \"Volume -\" button for quick access</string>
+  <string name="settingsFirstHelpTop2">(+)(-) Press volume buttons together for menu</string>
+  <string name="settingsFirstHelpCenter">Draw here</string>
+
+  <string name="canvasInstrumentFigureTip">It is a tool for inserting shapes.
+    \nChose the shape using the button on the top and move your finger across the screen.
+    \nUse the top slider to change the stroke, 
+    \nand the bottom one to change the rotation
+  </string>
+  <string name="canvasInstrumentLineTip">It is a tool for drawing straight lines.
+    \nMove your finger across the screen to draw
+  </string>
+  <string name="canvasInstrumentScalingTip">You\'ve chosen scaling.
+    \nUse one finger to navigate across scaled canvas.
+    \nUse two fingers to change the scale
+  </string>
+  <string name="canvasInstrumentPipetteTip">You\'ve chosen pipette.
+    \nPipette allows choosing the colour on the drawing.
+    \nBy tapping on an empty area you will get transparent colour!
+  </string>
+  <string name="canvasInstrumentAccurateTip">Drawing with accurate brush.
+    \nYou can move the cursor with one finger
+    \nand push the activation button with the second one
+  </string>
+
+
+  <string name="aboutText" tools:ignore="TypographyEllipsis">
+     FP sDraw - 🗒️ is your sheet that is always at hand. A convenient tool that helps in everyday life.
+     \n
+     \n✨ Nothing extra - You open it and draw immediately. No ads or intrusive notifications. It has a pleasant and thoughtful design. You can quickly create a sketch, finish a photo, or create a meme.
+     \n🖋️ The program supports digital pen capabilities: sPen, Smart Pen, Active Pen, etc.
+     \n⛑️ While you draw, the program periodically creates backup copies to keep your drawing safe.
+     \n
+     \n👀 And now more details...
+     \nAfter opening the program, you don\'t need to spend time creating a project - the sheet is already ready for drawing.
+     \nThe program is less than a megabyte in size, works stably and quickly on most devices, and does not drain the phone with background activity. Compatible with both current Android versions and Android 2.3 😳
+     \n
+     \nWhen drawing, the following options are available:
+     \n- ↕️ Convenient access to functions using the volume keys;
+     \n- ⏳ Canceling and repeating actions, for many steps;
+     \n- 💾 Saving a drawing, several options to choose from;
+     \n- 📋 Inserting pictures from the gallery or from the clipboard. You can insert after removing the background;
+     \n- ⚙️ Flexible settings, you can even choose the shape of the buttons 🤩
+     \n- ❓ There are hints that do not distract, but will help you understand easily.
+     \n- 🎁 And much more 😉
+     \n
+     \nIn addition to simple drawing, there are other tools:
+     \n- ⬜ Eraser, for erasing what is drawn;
+     \n- 🏺 Painting to fill the drawn figure;
+     \n- 🧩 Mosaic to hide something in the photo;
+     \n- 🅰️ Adding text, with font selection;
+     \n- ✂️ Selecting and moving a fragment of a picture;
+     \n- 🔳 Drawing shapes (rectangle, triangle, etc.);
+     \n- 📏 Ruler, for drawing straight lines;
+     \n- 🎨 Eyedropper to choose a color from the canvas;
+     \n- 🖱️ Precision brush, a unique tool that allows you to easily make small changes to your drawing.
+     \n
+     \n
+     \n☕ That\'s almost all...
+     \nIn this description, it is impossible to describe the many features of the program, so it is easier to try it once than to read it 100 times 😉.
+     \nJust a reminder, the program "weighs" less than a megabyte 😊
+   </string>
+  <string name="aboutShowChangelog">Show full changelog</string>
+
+  <string name="TextInputMenuHeader">Text input</string>
+
+  <string name="FunnyCenterQuestionHeader">Entrance into the developer entertainment center</string>
+  <string name="FunnyCenterQuestionMessage">Are you a developer of this program?</string>
+  <string name="FunnyCenterQuestionOK">Yes, I\'m the developer</string>
+  <string name="FunnyCenterQuestionCancel">No, I\'m a user</string>
+
+  <string name="FileOpenDeleteconfirmationHeader">Confirm the deletion</string>
+  <string name="FileOpenDeleteconfirmationMessage">Do you really want to delete image?</string>
+  <string name="FileOpenDeleteconfirmationConfirm">Yes, delete it</string>
+  <string name="FileOpenDeleteconfirmationCancel">No, do not delete</string>
+
+  <string name="ColorPickerApply">Apply</string>
+  <string name="ColorPickerClose">Cancel</string>
+
+
+
+  <string name="Filling">Filling</string>
+  <string name="tutorExit">Press twice to exit</string>
+  <string name="error">Something went wrong</string>
+
+
+  <string name="undoSkipped">Undo action skipped: fingers on screen</string>
+  <string name="instrumentSelectAndMove">Select and move</string>
+  <string name="creatingSecetion">Creating selection</string>
+  <string name="copy">Copy</string>
+  <string name="cancel">Cancel</string>
+  <string name="apply">Apply</string>
+  <string name="settingsOthersTip">For experienced users only</string>
+  <string name="selectedAreaEmpty">Selected area is empty</string>
+  <string name="aboutCopyrightNote">Copyright note</string>
+  <string name="aboutPermissionsNote">Permissions note</string>
+  <string name="settingsBrushopacity">Color opacity</string>
+  <string name="settingsBrushopacityTip">Color opacity allows you to achieve a specific color transition effect.</string>
+  <string name="stringMenu">Menu</string>
+  <string name="mirror">Mirror</string>
+  <string name="errorWhileInserting">Not enough memory. Try again or restart application</string>
+  <string name="openWindowErrorNoPath">Error receiving folder path</string>
+  <string name="openWindowErrorNoFolder">Folder doesn\'t exist</string>
+  <string name="openWindowErrorNoFiles">No saved images</string>
+
+  <string name="paidFunction">Your free version of FP sDraw is expired now.
+    \nYou can buy Pro version to support developer, or reset trial period for free.
+  </string>
+  <string name="fullVersionInfoMainMenuDemoRemaining">You can use full version for %DAYS% days. Tap for more...</string>
+  <string name="fullVersionInfoMainMenuDemoExpired">Free vesrion functionality is limited. How to remove limits?</string>
+  <string name="fullVersionInfoBuyInGooglePlay">Buy in Google Play</string>
+  <string name="fullVersionInfoDemoExpired1">Some functions were disabled, because of trial period expiration.</string>
+  <string name="fullVersionInfoDemoExpired2">Trial period</string>
+  <string name="fullVersionInfoDemoExpired3End">Expired</string>
+  <string name="fullVersionInfoDemoExpired4">I suggest you to buy FP sDraw Pro, which has no limits. So you can support the developer.</string>
+  <string name="fullVersionInfoDemoExpired5">If you don\'t want to buy FP sDraw Pro, you can start trial periog again. It\'s free.</string>
+  <string name="fullVersionInfoDemoExpired6">You can do this as many times as you want.</string>
+  <string name="fullVersionInfoDemoExpired7">Start new trial</string>
+  <string name="fullVersionInfoMotivation1">Software development consumes a lot of time and effort, but I work hard to make my users happy with quality software.
+    \nThis application contains no advertising, because it spoils the impression and increases file size. Application quality is more important for me.
+    \nYou can support the developer by buying Pro version and get unlimited access to:
+  </string>
+  <string name="fullVersionInfoMotivation2">Scaling;</string>
+  <string name="fullVersionInfoMotivation3">Palette quick access;</string>
+  <string name="fullVersionInfoMotivation4">Instruments selector quick access;</string>
+  <string name="fullVersionInfoMotivation5">Palette at the bottom of the screen;</string>
+  <string name="fullVersionInfoMotivation6">Instruments selector at the bottom of the screen;</string>
+  <string name="fullVersionInfoMotivation7">Disabling of \"FP sDraw\" watermark.</string>
+  <string name="fullVersionInfoMotivation8">Creating of this application consumed hundreds (!) hours of programming, designing and drawing icons.
+    \nI am satisfied with the result, because I like this application and I use it frequently for personal needs.
+    \nAlso I am glad to share it and understand, that my time wasn\'t wasted.
+    \nI\'d like to express my gratitude to everyone, who helped me in development and testing! These people are listed on \"About\" screen.
+  </string>
+  <string name="fullVersionInfoDemoRemaining1">Trial period</string>
+  <string name="fullVersionInfoDemoRemaining2">Trial days remaining:</string>
+  <string name="fullVersionInfoDemoRemaining3">Days, when you don\'t use application are not counted.</string>
+  <string name="fullVersionInfoDemoRemaining4">When trial period expires, some functions will be disabled.</string>
+  <string name="fullVersionInfoDemoRemaining5">There is no advertising in application.</string>
+  <string name="fullVersionInfoDemoRemaining6">If you don\'t want to buy FP sDraw Pro, you can start trial period again when it ends.</string>
+  <string name="fullVersionInfoDemoRemaining7">You can do it as many times as you want.</string>
+  <string name="fullVersionInfoDemoRemaining8">Some functions, which you\'re using now have time limitation.</string>
+  <string name="fullVersionInfoActivity1">Reset counter</string>
+  <string name="fullVersionInfoActivity2">Do you really want to start new trial period?
+    \nNew trial period will start after restarting application and you\'ll be able to use full functionality for free.
+    \nIf you like this application, consider buying FP sDraw Pro to support developer.
+  </string>
+  <string name="fullVersionInfoActivity3">Reset</string>
+  <string name="fullVersionInfoActivity4">Cancel</string>
+  <string name="fullVersionInfoActivity5">Success</string>
+  <string name="fullVersionInfoActivity6">New trial period was started.
+    \nYou can use all FP sDraw functions after restarting program.
+    \nEnjoy!
+  </string>
+
+  <string name="fullVersionInfoSettingsDemoRemaining">This function is available under trial period</string>
+  <string name="fullVersionInfoSettingsDemoExpired">This function is available in FP sDraw Pro</string>
+
+  <string name="title_pro_info">Info about FP sDraw Pro</string>
+  <string name="title_add_text">Add text</string>
+  <string name="title_openfile">Open file</string>
+  <string name="thisIsFreeVersion">You\'re using free version of program. It allows you to use all functions for free. But you can support developer by buying Pro version.</string>
+  <string name="moreInfo">More info...</string>
+  <string name="drawingSavedAs">Picture saved in</string>
+
+  <string name="permissionsNoteText">This application uses such permissions:
+      \n
+      \n
+      \nandroid.permission.WRITE_EXTERNAL_STORAGE
+      \nWrite to sdcard - is needed to save images.
+      \n
+      \n
+      \nandroid.permission.VIBRATE
+      \nVibration - is needed to vibrate on pressing on some buttons.
+      \n
+      \n
+      \nandroid.permission.READ_PHONE_STATE
+      \nIs needed to get precise screen orientation (0, 90, 270, 180) and allows to rotate images correctly.
+  </string>
+
+  <string name="unsupportedOnYourDevice">Unsupported on your device</string>
+  <string name="applyCode">Apply code</string>
+  <string name="opening">Opening...</string>
+  <string name="deleteBackground">Delete background</string>
+  <string name="analyzingImage">Analyzing image...</string>
+  <string name="inserting">Inserting...</string>
+  <string name="saveFragmentWithTransparency">Save fragment with transparency</string>
+  <string name="saveFragment">Save fragment</string>
+  <string name="loading">Loading...</string>
+  <string name="insert_fit">Fit</string>
+  <string name="error_saving_saving">Error while saving image</string>
+  <string name="error_saving_writing_file">Error writing file</string>
+  <string name="error_saving_compressing">Error compressing image</string>
+  <string name="permissionNeededFileAccess">This feature requires access to storage permission</string>
+  <string name="save_error_folder">Can\'t create folder to save file. Check folder path on \"Other settings\" screen.</string>
+  <string name="no_gallery_app">Your device don\'t have any gallery application. Install gallery to use this feature</string>
+  <string name="text_input_next">Next</string>
+  <string name="text_input_hint">Type here</string>
+  <string name="text_input_frame_hint">Select frame type</string>
+  <string name="text_input_alignment_hint">Select text alignment</string>
+  <string name="text_input_font_hint">Select text font</string>
+  <string name="text_input_no_fonts">No fonts found in your system.</string>
+  <string name="text_input_no_fonts_hint">You can put your custom TTF fonts to folder. \nIf you don\'t have access to this folder from phone, use your PC to access folder. \nFolder address:</string>
+  <string name="text_input_fonts_from_folder">Fonts from folder</string>
+  <string name="settings_palette_edit_clone">Clone color</string>
+  <string name="settings_palette_edit_delete">Delete color</string>
+  <string name="settings_palette_edit_edit">Edit color</string>
+  <string name="settings_palette_edit_delete_lasterror">You can\'t delete last available color</string>
+  <string name="instrument_selector_content">Instrument selector content</string>
+    <string name="onscreen_instrument_list_error_select_minimum_two">Select minimum 2 instruments</string>
+    <string name="buy_pro">Buy Pro</string>
+  <string name="reset_trial">Reset trial</string>
+  <string name="two_fingers_zoom">Two fingers zoom</string>
+  <string name="two_fingers_zoom_tip">If enabled, touching canvas by two fingers will activate zoom. If disabled, touching canvas by two fingers will draw two lines.</string>
+  <string name="mosaic">Mosaic</string>
+  <string name="mosaic_size">Mosaic size</string>
+    <string name="replace_by_current_color">Replace by current color</string>
+    <string name="save_enter_image_size">Enter image size</string>
+  <string name="save_enter_image_size_tip">Fragment will be saved with this resolution</string>
+  <string name="save_width">Width</string>
+  <string name="save_height">Height</string>
+  <string name="save_save_fragment_with_fixed_size">Save fragment with fixed size</string>
+  <string name="save_size_must_be_not_empty">Size must be not empty</string>
+  <string name="save_size_is_too_small">Size is too small</string>
+  <string name="save_size_is_too_big">Size is too big</string>
+  <string name="save_not_enough_memory">There is not enough memory to save the fragment</string>
+    <string name="fill_threshold">Fill threshold</string>
+    <string name="grid_opacity">Grid opacity</string>
+  <string name="warning_instruments_can_not_fit">If you choose too many tools, the program will work unstable (they may not fit on the screen)</string>
+  <string name="binarize_image">Binarize</string>
+  <string name="delete">Delete</string>
+  <string name="SettingsVibrationEnable">Enable vibration feedback</string>
+  <string name="SettingsVibrationEnableHint">When enabled, program will use vibration to confirm actions like long click or button click. When disabled, vibration still can happen if controlled by system.</string>
+    <string name="arrow">Arrow</string>
+  <string name="oval">Oval</string>
+  <string name="rectangle">Rectangle</string>
+  <string name="triangle">Triangle</string>
+  <string name="any_input_device">Any input device</string>
+  <string name="back">Back</string>
+  <string name="change_language">Change language</string>
+  <string name="change_language_hint">Open system menu to change application language. Changing language will restart application, please save your work before changing language.</string>
+  <string name="menuPaste">Paste</string>
+    <string name="saveFragmentWithoutGrid">Save Without Grid</string>
+  <string name="squircle">Squircle</string>
+  <string name="menu">Menu</string>
+  <string name="edit">Edit</string>
+    <string name="selectMenuStripContent">Select menu strip content</string>
+  <string name="selectMenuStripContentHint">You can select any amount of buttons. If buttons too few, menu will be located in center of the strip.</string>
+  <string name="uiElementsForm">UI Elements form</string>
+  <string name="form_squircle">Sqircle buttons</string>
+  <string name="form_circle">Circle buttons</string>
+  <string name="form_rectangle">Rectangle buttons</string>
+  <string name="form_rectangle_hint">Many buttons and forms in UI will have rectangle form, and also in many places rectangles roundings will be removed. To see any difference, scroll or re-enter settings.</string>
+  <string name="form_circle_hint">Many buttons and forms in UI will have circle form. To see any difference, scroll or re-enter settings.</string>
+  <string name="form_squircle_hint">Many buttons and forms in UI will have squircle form. To see any difference, scroll or re-enter settings.</string>
+  <string name="orientation_auto_hint">
+    When \"Auto\" selected and you enabled screen rotation in your device settings, program UI will rotate when you rotate phone.
+    \nDuring rotation, the drawing may be cropped or not saved because dimensions of canvas is changing.
+    \nPrevious copy of your drawing is always available in \"Open -> Autosaves\" screen.
+    \nKeep in mind, that drawings can be opened for editing only in same orientation as you created it, because of dimensions difference.
+    \nThis setting changes will be applied only after program restart.</string>
+  <string name="orientation_landscape_hint">
+    Canvas will always stay in landscape (horizontal) orientation even if you hold your device vertically.
+    \nKeep in mind, that drawings can be opened for editing only in same  orientation as you created it, because of dimensions difference.
+    \nThis setting changes will be applied only after program restart.</string>
+  <string name="orientation_portrait_hint">
+    Canvas will always stay in portrait (vertical) orientation even if you hold your device horizontally.
+    \nKeep in mind, that drawings can be opened for editing only in same  orientation as you created it, because of dimensions difference.
+    \nThis setting changes will be applied only after program restart.</string>
+  <string name="scale_one_to_one">Scale to image original size</string>
+
+  <string name="show_help_messages">Show help messages</string>
+  <string name="show_help_messages_tip">While working with the program, help will be available in different places, which will allow you to understand the functionality more easily.</string>
+
+  <string name="hint_brush">
+         👋 Welcome to FP sDraw!
+         \nYou are on the canvas screen and the \"Brush\" tool is selected.
+         \n
+         \n🖌️ The \"Brush\" tool draws a line of the selected color. The line size can be selected in the menu.
+         \n🔺 To use the eraser, press and hold the volume up button.
+         \n🔻 To use gestures, press and hold the volume down button.
+         \n📖 To quickly open the menu, press both volume buttons.
+         \n🔍 You can use two fingers to scale the drawing.
+         \n
+         \n☝️ Swipe across the screen to start drawing.
+  </string>
+  <string name="hint_gesture">
+         You are on the gesture input screen. From here you can get quick access to frequently used functions.
+         \n
+         \n☝️ To perform the corresponding action, swipe with one finger.
+         \n🔍 You can use two fingers to zoom in on the picture.
+  </string>
+  <string name="hint_eraser">
+         You selected the \"Eraser\" tool.
+         \n
+         \n◻️ The \"Eraser\" tool erases the drawing area. You can choose the size of the area in the menu.
+         \n
+         \n☝️ To start erasing, swipe over a non-empty part of the picture.
+  </string>
+  <string name="hint_filler">
+         You selected the \"Painting\" tool.
+         \n
+         \n🏺 The \"Painting\" tool paints a fragment of a similar shade with the selected color. The fragment tolerance can be selected in the menu.
+         \n
+         \n☝️ To paint a fragment, touch it.
+  </string>
+  <string name="hint_mosaic">
+         You selected the \"Mosaic\" tool.
+         \n
+         \n🧩 The \"Mosaic\" tool replaces a fragment of a picture with cubes of a similar color.
+         \n The size of the cubes can be selected in the menu. It is usually used to hide objects.
+         \n
+         \n☝️ To apply, swipe over a non-empty fragment of the picture.
+  </string>
+  <string name="hint_text_adding">
+         You selected the \"Text\" tool.
+         \n
+         \n🅰️ The "Text" tool allows you to add an inscription to a picture. When the text is already placed on the picture, it cannot be edited, it can only be canceled.
+         \nFirst, the text is entered, then it is placed on the picture.
+         \n
+         \n☝️ To start typing, tap anywhere on the picture. Next, you can position the text in the desired place of the picture.
+  </string>
+  <string name="hint_text_moving">
+         ↔️ You are on the text move screen. Select the text position. After confirmation, it will become part of the drawing and the text cannot be changed.
+         \n
+         \n☝️ Swipe with one finger to move the text.
+         \n🔍 You can zoom or rotate text with two fingers.
+         \n🧰 To perform another action, use the menu. Holding the menu button will show the purpose of the button.
+  </string>
+  <string name="hint_selection_selecting">
+         You selected the \"Select and Move\" tool.
+         \n
+         \n✂️ The Select and Move tool allows you to draw over a part of a drawing and move, scale, rotate, or copy it.
+         \n
+         \n☝️ To select a fragment, circle it. Then you can move it.
+         \n⬇️ You can also select with the cursor or select the entire picture using the buttons below.
+   </string>
+   <string name="hint_selection_precision">
+         You are on the canvas screen and tool for selecting a fragment of picture by cursor is selected.
+         \n
+         \n✂️ Selecting with the cursor allows you to circle the desired area with polygons, placing each point manually, achieving a more accurate contour.
+         \n
+         \n☝️ To move the cursor, slide your finger across the screen.
+         \n☝️ To add a point in the place where the cursor is now - click on the screen.
+         \n⬇️ To cancel, remove the last point, or complete the selection, use the buttons below.
+   </string>
+   <string name="hint_selection_moving">
+         You are on the screen to move the selected image fragment.
+         \n
+         \n☝️ To move the fragment, slide your finger across the screen.
+         \n🔍 Use two fingers to zoom or rotate.
+         \n🧰 To perform another action, use the menu. Holding the menu button will show the purpose of the button.
+   </string>
+  <string name="hint_figures_creating">
+         You selected the \"Shape Drawing\" tool.
+         \n
+         \n🔳 The \"Drawing shapes\" tool allows you to add graphic primitives, such as a rectangle, triangle, etc. to the drawing.
+         \n
+         \n☝️To create a shape, click on its icon in the menu below. Next, you can place the shape in the desired place of the drawing.
+   </string>
+  <string name="hint_figures_moving">
+         You are on the screen of moving the created shape.
+         \n
+         \n☝️ To move the figure, slide your finger across the screen.
+         \n🔍 Use two fingers to zoom or rotate.
+         \n🧰 To perform another action, use the menu. Holding the menu button will show the purpose of the button.
+   </string>
+    <string name="hint_line">
+         You selected the \"Line drawing\" tool.
+         \n
+         \n📏 The tool allows you to add a straight line between two points to the drawing.
+         \nLine thickness can be selected in the menu.
+         \n
+         \n☝️ Swipe your finger across the screen to draw a line.
+   </string>
+    <string name="hint_accurate">
+         You selected the "Precise Brush" tool.
+         \n
+         \n↖️ The precise brush allows you to draw small elements with the help of the cursor.
+         \nDrawing occurs only when the draw button in the upper left corner of the screen is pressed.
+         \nYou can move the cursor around the screen with one finger, and press the draw button with the other finger. Will work even if you do it at the same time.
+         \nIn Precision Brush mode, you can use several tools, which can be switched using the button in the lower right corner of the screen.
+         \n
+         \n☝️ To draw, move the cursor to the desired place of the drawing, then hold down the drawing button, and without releasing the drawing button, swipe with another finger while moving the cursor.
+   </string>
+    <string name="hint_pipette">
+         You selected the "Eyedropper" tool.
+         \n
+         \n🎨 The eyedropper allows you to choose the color of the drawing from the picture.
+         \nThe color will be selected as current, but will not be added to the palette. You can add it to the palette in the settings by pressing the color in the palette.
+         \nThe eyedropper does not take into account the transparency of the color.
+         \nThe selected color and its code are displayed in the upper left corner of the screen.
+         \n
+         \n☝️ To choose a color, swipe over a non-empty part of the picture.
+   </string>
+    <string name="hint_pixelmode">
+         You have zoomed in a lot, pixel art mode is activated.
+         \n
+         \n🔍 In this mode, settings are set that simplify pixel-by-pixel drawing:
+         \n- The grid that separates the pixels is displayed.
+         \n- The size of the brush and eraser is set to 1 pixel.
+         \n- Smoothing of contours, transparency is disabled.
+         \n
+         \n☝️ As soon as you reduce the scale of the picture, the settings will return to what they were.
+    </string>
+    <string name="saveSelectedFragment">Save selected fragment</string>
+    <string name="copy_selected_to_clipboard">Copy selected to clipboard</string>
+    <string name="insert_copy">Insert copy</string>
+    <string name="cross">Cross</string>
+    <string name="useOnlySPenInUi">Use only a digital pen even in the interface</string>
+    <string name="enable_hardware_acceleration">Enable Hardware Acceleration</string>
+    <string name="enable_hardware_accelerationTip">Hardware acceleration of the canvas allows the system to draw the interface more smoothly with the help of a video card.
+     \nOn some devices, it happens that it starts to slow down during drawing. This means that this device spends a lot of time transferring the picture to the video card.
+     \nTo avoid this transfer, you can disable hardware acceleration. This will degrade the smoothness of the interface in general, but improve the smoothness when drawing.
+    </string>
+
+</resources>

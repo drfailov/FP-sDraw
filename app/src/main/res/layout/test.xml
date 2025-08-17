@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Добро пожаловать в захватывающий мир FP sDraw!"
+            android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" android:layout_marginTop="6dp"/>
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+            android:layout_gravity="center_horizontal" android:background="#666666"
+                android:layout_marginTop="12dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="В этом центре развлечений тебя ждет захватывающее путешествие по данным, хранящимся в оперативной памяти программы! "
+            android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" android:layout_marginTop="33dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text='Но помни!!! Если ты - НЕ разработчик, то лучше нажми кнопку "назад" и больше никогда сюда не заходи! А то потом пишут всякие в комментариях, что программа глючит!'
+            android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" android:textColor="#FF0000" android:layout_marginTop="17dp"/>
+        <ImageView android:layout_width="fill_parent" android:layout_height="2px"
+            android:layout_gravity="center_horizontal" android:background="#666666"
+                   android:layout_marginTop="12dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Тестовые сценарии"
+            android:layout_gravity="center_horizontal" android:layout_marginTop="22dp"/>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_marginTop="9dp">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Сценарий 1"
+                    android:id="@+id/buttonScenario1" android:layout_weight="1" android:layout_margin="10dp"
+                    android:onClick="onClick"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Сценарий 2"
+                    android:id="@+id/buttonScenario2" android:layout_weight="1" android:layout_marginLeft="10dp"
+                    android:layout_margin="10dp" android:onClick="onClick"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:layout_marginTop="0dp">
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 3"
+                    android:id="@+id/buttonScenario3" android:layout_weight="1" android:layout_margin="10dp"
+                    android:onClick="onClick"/>
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 4"
+                    android:id="@+id/buttonScenario4" android:layout_weight="1" android:layout_marginLeft="10dp"
+                    android:layout_margin="10dp" android:onClick="onClick"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:layout_marginTop="0dp">
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 5"
+                android:layout_weight="1" android:layout_margin="10dp"
+                android:onClick="onClick" android:id="@+id/buttonScenario5"/>
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 6"
+                android:id="@+id/buttonScenario6" android:layout_weight="1" android:layout_marginLeft="10dp"
+                android:layout_margin="10dp" android:onClick="onClick"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:layout_marginTop="0dp">
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 7"
+                android:layout_weight="1" android:layout_margin="10dp"
+                android:onClick="onClick" android:id="@+id/buttonScenario7"/>
+            <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Сценарий 8"
+                android:id="@+id/buttonScenario8" android:layout_weight="1" android:layout_marginLeft="10dp"
+                android:layout_margin="10dp" android:onClick="onClick"/>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="2px"
+            android:layout_gravity="center_horizontal" android:background="#666666"
+                   android:layout_marginTop="12dp"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Текстовый вывод"
+                android:id="@+id/textOutput" android:layout_marginTop="8dp" android:textColor="#00FF00"/>
+    </LinearLayout>
+</ScrollView>

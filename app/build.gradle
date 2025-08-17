@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    lintOptions {
+        disable 'ValidFragment'
+    }
+
+    defaultConfig {
+        //для платной менять тут appID, в манифесте икноку, в Strings плюсик и имя приложения
+        //Change: 1) manifest 2) strings 3) module gradle
+        applicationId "com.fsoft.FP_sDraw_paid" //for paid
+//        applicationId "com.fsoft.FP_sDraw"    //for free
+
+        minSdkVersion 8
+        compileSdk 33
+        targetSdkVersion 33
+        versionCode 55
+        versionName "7.6"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    ndkVersion '22.1.7171670'
+    namespace 'com.fsoft.FP_sDraw'
+}
+
+dependencies {
+    implementation files('libs/android-support-v4.jar')
+    implementation 'com.android.support:support-annotations:28.0.0'
+    //compile fileTree(dir: 'libs', include: '*.jar')
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile 'com.android.support:support-v4:23.1.1'
+}

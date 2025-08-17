@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="highlighting_none">#00FFFFFF</color>
+    <color name="highlighting_hover">#22FFFFFF</color>
+    <color name="highlighting_press">#55FFFFFF</color>
+    <color name="splashbackground">#111122</color>
+</resources>

@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated by carolangelo263@gmail.com -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="developer"><b>Developer:</b>
+    \n\t   Dr. Failov
+    \n<b>Ajuda no desenvolvimento:</b>
+    \n\t - Polyasha00  <i>(dicas de interface)</i>;
+    \n\t - Megabozyakorovka  <i>(testing)</i>;
+    \n\t - Tatius <i>(suggestions, testing)</i>;
+    \n\t - Orange197 <i>(testing, suggestions)</i>;
+    \n\t - Plaxeen <i>(testing, suggestions)</i>;
+    \n\t - Messer <i>(testing, suggestions)</i>;
+    \n\t - DanaSemaniv <i>(testing, grammar)</i>;
+    \n\t - Carol Angelo <i>(translate to Portuguese)</i>;
+    \n\t - MiracleGuardian <i>(testing, grammar)</i>;
+    \n\t - Ckpe4 <i>(testing, suggestions)</i>;
+    \n\t - MaximSmel <i>(testing, grammar)</i>;
+    \n\t - Kara <i>(testing, suggestions, inspiration)</i>;
+    \n\t - NikolasBrind <i>(testing)</i>;
+    \n\t - SakhNYAshA <i>(suggestions, inspiration)</i>;
+    \n\t - Irsy <i>(suggestions)</i>;
+    \n\t - MeryLEN <i>(grammar)</i>.
+  \n</string>
+
+  <string name="menuOpen">Abrir</string>
+  <string name="menuSave">Salvar</string>
+  <string name="menuInsert">Inserir</string>
+  <string name="menuUndo">Desfazer</string>
+  <string name="menuRedo">Refazer</string>
+  <string name="menuClear">Apagar</string>
+  <string name="menuSettings">Configurações</string>
+  <string name="menuAbout">Sobre</string>
+  <string name="saveMenuCancel">Cancelar</string>
+  <string name="openSave">Salvos</string>
+  <string name="openAutosave">Salvos Automaticamente</string>
+    <string name="insertUnsupported">Essa origem não é suportada. Tente usar outro aplicativo de galeria.</string>
+  <string name="undoEnd">Nada para desfazer</string>
+  <string name="undoEndMaximum">O limite de desfazer foi atingido</string>
+  <string name="redoEnd">Nada para refazer</string>
+
+  <string name="instrumentBrush">Pincel</string>
+  <string name="instrumentEraser">Borracha</string>
+  <string name="instrumentFilling">Preenchimento</string>
+  <string name="instrumentText">Inserção de texto</string>
+  <string name="instrumentFigure">Formas</string>
+  <string name="instrumentLine">Linha</string>
+  <string name="instrumentScale">Zoom</string>
+  <string name="instrumentPipette">Conta-gotas</string>
+  <string name="instrumentAccurate">Pincel de precisão</string>
+
+  <string name="settingsBrushcolor">Cor do pincel</string>
+  <string name="settingsBrushcolorOther">Outra</string>
+  <string name="settingsBackgroundcolor">Cor do fundo</string>
+  <string name="settingsSwap">Inverter cores</string>
+  <string name="settingsBrushsize">Tamanho do pincel</string>
+  <string name="settingsErasersize">Tamanho da borracha</string>
+  <string name="settingsGridsize">Tamanho da grade</string>
+  <string name="settingsGridVertical">Grade vertical</string>
+  <string name="settingsGridsizeTip">A grade ajuda a simular linhas como em um caderno. Aqui você pode escolher o tamanho da grade. Um valor de zero desativa a grade.</string>
+  
+  <string name="settingsBrushsizeManagement">Controlar espessura do pincel</string>
+  <string name="settingsPressure">Pressão</string>
+  <string name="settingsPressureTip">Quanto mais você pressiona a tela, mais grossa se torna a linha. Nem todos os dispositivos suportam essa função</string>
+  <string name="settingsManageMethodSize">Tamanho</string>
+  <string name="settingsManageMethodSizeTip">Quanto maior a área de toque, mais grossa se torna a linha. Nem todos os dispositivos suportam essa função</string>
+  <string name="settingsSpeed">Velocidade</string>
+  <string name="settingsSpeedTip">Quanto mais rápido você desenha, mais fina se torna a linha</string>
+  <string name="settingsSpeedInverse">Velocidade inversa</string>
+  <string name="settingsSpeedInverseTip">Quanto mais rápido você desenha, mais grossa se torna a linha</string>
+  <string name="settingsConstant">Constante</string>
+  <string name="settingsConstantTip">A espessura da linha não varia</string>
+  
+  <string name="settingsProcessing">Processamento do desenho</string>
+  <string name="settingsAntialiasing">Antiserrilhamento</string>
+  <string name="settingsAntialiasingTip">Suaviza as bordas das linhas desenhadas</string>
+  <string name="settingsSmoothing">Suavizar traços rápidos</string>
+  <string name="settingsSmoothingTip">Se você desenhar rapidamente, a linha terá quebras. Essa função buscará suavizá-las um pouco</string>
+  <string name="settingsSmoothingSensivity">Sensibilidade de suavização</string>
+  <string name="settingsSmoothingSensivityTip">Determina a precisão com a qual seus movimentos serão desenhados.
+    \n(10) - a linha mais suave possível, mas pode não ser muito precisa;
+    \n(100) - a linha mais precisa possível, mas pode não ser muito suave;
+    \n(30) - valor padrão.
+  </string>
+  <string name="settingsAddWatermark">Adicionar marca d\'água \"sDraw\" aos desenhos</string>
+  <string name="settingsAddWatermarkTip">Uma marca d\'água  \"sDraw\" quase invisível irá aparecer no canto direito inferior do desenho</string>
+  
+  <string name="settingsInterface">Interface</string>
+  <string name="settingsInterfaceTip">Configurando interface do usuário</string>
+  <string name="settingsShowInstrumentsSelector">Mostrar seletor de ferramentas</string>
+  <string name="settingsShowColorsSelector">Mostrar seletor de cores</string>
+  <string name="settingsShowInstrumentsSelectorTip">Permite trocar de ferramenta ao tocar em um botão na tela de pintura</string>
+  <string name="settingsShowColorsSelectorTip">Exibe o círculo com a seleção de cores.
+    A paleta pode ser arrastada, e a disposição das cores é adaptada ao novo local da paleta.
+    Um clique longo na paleta abre o seletor de cores.    
+Um clique longo em uma cor altera a cor do fundo
+  </string>
+  <string name="settingsShowOnScreenMenuButton">Mostrar botão de menu na tela</string>
+  <string name="settingsShowOnScreenMenuButtonTip">O botão de menu na tela é fornecido para os aparelhos que não possuem botão de menu no hardware. Desabilite esta opção, se o seu dispositivo tiver esse botão</string>
+  <string name="settingsStatusBar">Barra de status</string>
+  <string name="settingsStatusBarTip">Exibir barra de status no topo da tela (relógio, ícones de alerta). Esta configuração será aplicada depois de reiniciar</string>
+  <string name="settingsMenuStrip">Barra de ferramentas</string>
+  <string name="settingsMenuStripTip">Exibe um menu de ferramentas na parte inferior da tela.</string>
+    <string name="settingsPaletteStrip">Barra de cores</string>
+  <string name="settingsPaletteStripTip">Exibe uma paleta deslizável de cores na parte inferior da tela.</string>
+
+    <string name="settingsBehaviour">Comportamento</string>
+  <string name="settingsBackKeyUndo">Desfazer com a tecla \"Voltar\"</string>
+  <string name="settingsBackKeyUndoTip">O programa irá desfazer sua última alteração quando você tocar uma vez no botão de \"Voltar\"</string>
+  <string name="SettingsVolumeKeys">Interceptar botões de volume</string>
+  <string name="SettingsVolumeKeysHint">Use os botões de volume enquanto desenha.
+    Se esta opção estiver habilitada, você não poderá controlar o volume enquanto desenha,
+    mas você terá acesso às funções frequentemente utilizadas
+  </string>
+  <string name="settingsKeepScreenOn">Manter a tela ligada</string>
+  <string name="settingsKeepScreenOnTip">O display permanecerá ativo enquanto a tela de pintura estiver aberta. Esta configuração será aplicada depois de reiniciar</string>
+  <string name="settingsMaximimBrightness">Brilho máximo</string>
+  <string name="settingsMaximimBrightnessTip">A luz de fundo do aparelho vai trabalhar com o brilho no máximo enquanto a tela de pintura estiver aberta. Esta configuração será aplicada depois de reiniciar</string>
+
+  <string name="settingsSamsung">Configurações de dispositivos especiais</string>
+  <string name="fingerHovering">Detectar suspensão do dedo</string>
+  <string name="fingerHoveringTip">O programa irá mostrar um ponteiro na posição em que o seu dedo estiver suspenso próximo à tela.
+    Este recurso funciona somente com alguns smartphones Samsung. 
+    Esta função requer acesso ROOT.
+  </string>
+  <string name="useOnlySPen">Usar apenas caneta touchscreen</string>
+    <string name="settingsEinkCrear">Apagando em tela E-ink</string>
+  <string name="settingsEinkCrearTip">A tela piscará para preto e branco múltiplas vezes enquanto se apaga um desenho.
+    Isso é necessário para evitar glitches de imagem em telas e-ink
+  </string>
+
+  <string name="settingsRotate">Rotacionar a tela de pintura</string>
+  <string name="settingsHorizontal">Paisagem</string>
+  <string name="settingsVertical">Retrato</string>
+  <string name="settingsAuto">Auto</string>
+
+  <string name="settingsOthers">Outras configurações</string>
+  <string name="settingsOthersDeveloper">Para o desenvolvedor</string>
+  <string name="settingsOthersDeveloperDebug">Mensagens de depuração</string>
+  <string name="settingsOthersDeveloperDebugTip">Exiba informações adicionais na parte superior da interface do programa.</string>
+  <string name="settingsOthersDeveloperResetPressure">Reiniciar o coeficiente de pressão</string>
+  <string name="settingsOthersDeveloperResetPressureMessage">Coeficiente apagado</string>
+  <string name="settingsOthersDeveloperResetPressureTip">Se o modo de pincel gerenciado pela força de pressão reagir mal ao alterar a força de pressão, tente redefinir o valor do coeficiente de controle.
+     Se isso não ajudar, é provável que o hardware do seu dispositivo não tenha suporte para essa opção
+  </string>
+
+    <string name="settingsFirstHelpTopHeader">Recomendações iniciais</string>
+  <string name="settingsFirstHelpTop0">(+) Segure o botão\"Volume +\" para borracha</string>
+  <string name="settingsFirstHelpTop1">(-) Segure o botão \"Volume -\" para acesso rápido</string>
+  <string name="settingsFirstHelpTop2">(+)(-) Pressione os botões de volume juntos para abrir o menu</string>
+  <string name="settingsFirstHelpCenter">Desenhe aqui</string>
+
+    <string name="canvasInstrumentFigureTip">Essa é a ferramenta para inserção de formas.
+    \nEscolha a forma desejada tocando o botão no topo e deslize seu dedo pela tela para defini-la.
+    \nDeslize o controle de cima para alterar a espessura do traço, 
+    \ne o de baixo para rotacionar
+  </string>
+  <string name="canvasInstrumentLineTip">Essa é a ferramenta para desenhar linhas retas.
+    \nDeslize seu dedo pela tela para desenhar
+  </string>
+  <string name="canvasInstrumentScalingTip">Você escolheu o zoom.
+    \nUse um dedo para navegar através da tela ampliada.
+    \nUse dois dedos para controlar o zoom
+  </string>
+  <string name="canvasInstrumentPipetteTip">Você escolheu o conta-gotas.
+    \nO conta-gotas permite que você capture uma cor na tela de desenho.
+    \nAo tocar em uma área vazia você pegará uma cor transparente!
+  </string>
+  <string name="canvasInstrumentAccurateTip">Desenhando com o pincel de precisão.
+    \nVocê pode mover o cursor com um dedo
+    \ne apertar o botão de ativação com o outro
+  </string>
+
+
+    <string name="aboutText" tools:ignore="TypographyEllipsis">
+     FP sDraw - 🗒️ é a sua planilha que está sempre à mão. Uma ferramenta conveniente que ajuda na vida cotidiana.
+     \n
+     \n✨ Nada extra - você abre e desenha imediatamente. Sem anúncios ou notificações intrusivas. Tem um design agradável e atencioso. Você pode criar rapidamente um esboço, finalizar uma foto ou criar um meme.
+     \n🖋️ O programa suporta recursos de caneta digital: sPen, Smart Pen, Active Pen, etc.
+     \n⛑️ Enquanto você desenha, o programa cria cópias de segurança periodicamente para manter seu desenho seguro.
+     \n
+     \n👀 E agora mais detalhes...
+     \nDepois de abrir o programa, você não precisa perder tempo criando um projeto - a planilha já está pronta para ser desenhada.
+     \nO programa tem menos de um megabyte de tamanho, funciona de forma estável e rápida na maioria dos dispositivos e não esgota o telefone com atividades em segundo plano. Compatível com as versões atuais do Android e Android 2.3 😳
+     \n
+     \nAo desenhar, as seguintes opções estão disponíveis:
+     \n- ↕️ Acesso conveniente às funções usando as teclas de volume;
+     \n- ⏳ Cancelar e repetir ações, por muitas etapas;
+     \n- 💾 Salvando um desenho, diversas opções para escolher;
+     \n- 📋 Inserindo fotos da galeria ou da área de transferência. Você pode inserir após remover o fundo;
+     \n- ⚙️ Configurações flexíveis, você pode até escolher o formato dos botões 🤩
+     \n- ❓ Existem dicas que não distraem, mas ajudam você a entender facilmente.
+     \n- 🎁 E muito mais 😉
+     \n
+     \nAlém do desenho simples, existem outras ferramentas:
+     \n- ⬜ Borracha, para apagar o que é desenhado;
+     \n- 🏺 Pintura para preencher a figura desenhada;
+     \n- 🧩 Mosaico para esconder algo na foto;
+     \n- 🅰️ Adicionando texto, com seleção de fonte;
+     \n- ✂️ Selecionar e mover um fragmento de uma imagem;
+     \n- 🔳 Desenhar formas (retângulo, triângulo, etc.);
+     \n- 📏 Régua, para desenhar linhas retas;
+     \n- 🎨 Conta-gotas para escolher uma cor da tela;
+     \n- 🖱️ Pincel de precisão, uma ferramenta exclusiva que permite fazer facilmente pequenas alterações em seu desenho.
+     \n
+     \n
+     \n☕ Isso é quase tudo...
+     \nNesta descrição, é impossível descrever os vários recursos do programa, por isso é mais fácil experimentá-lo uma vez do que lê-lo 100 vezes 😉.
+     \nSó para lembrar, o programa "pesa" menos de um megabyte 😊
+   </string>
+  <string name="aboutShowChangelog">Mostrar log de alterações</string>
+
+  <string name="TextInputMenuHeader">Inserção de texto</string>
+
+    <string name="FunnyCenterQuestionHeader">Entrada no centro de entretenimento do desenvolvedor</string>
+  <string name="FunnyCenterQuestionMessage">Você é um desenvolvedor deste programa?</string>
+  <string name="FunnyCenterQuestionOK">Sim, eu sou desenvolvedor</string>
+  <string name="FunnyCenterQuestionCancel">Não, eu sou um usuário</string>
+
+  <string name="FileOpenDeleteconfirmationHeader">Confirmar exclusão</string>
+  <string name="FileOpenDeleteconfirmationMessage">Você quer mesmo excluir essa imagem?</string>
+  <string name="FileOpenDeleteconfirmationConfirm">Sim, excluir</string>
+  <string name="FileOpenDeleteconfirmationCancel">Não, não excluir</string>
+
+    <string name="ColorPickerApply">Aplicar</string>
+  <string name="ColorPickerClose">Cancelar</string>
+
+
+
+  <string name="Filling">Preenchendo</string>
+  <string name="tutorExit">Toque duas vezes para sair</string>
+  <string name="error">Algo deu errado</string>
+
+
+    <string name="undoSkipped">Desfazer ação ignorada: dedos na tela</string>
+  <string name="instrumentSelectAndMove">Selecionar e mover</string>
+  <string name="creatingSecetion">Criando seleção</string>
+    <string name="copy">Copiar</string>
+    <string name="cancel">Cancelar</string>
+  <string name="apply">Aplicar</string>
+  <string name="settingsOthersTip">Somente para usuários experientes</string>
+  <string name="selectedAreaEmpty">A área selecionada está vazia</string>
+  <string name="aboutCopyrightNote">Nota de copyright</string>
+  <string name="aboutPermissionsNote">Nota de permissões</string>
+  <string name="settingsBrushopacity">Opacidade da cor</string>
+  <string name="settingsBrushopacityTip">A opacidade da cor permite que você alcance um efeito de transição de cor específico.</string>
+    <string name="stringMenu">Menu</string>
+    <string name="mirror">Espelhar</string>
+    <string name="errorWhileInserting">Memória insuficiente. Tente novamente ou reinicie o aplicativo</string>
+  <string name="openWindowErrorNoPath">Erro ao receber o caminho da pasta</string>
+  <string name="openWindowErrorNoFolder">A pasta não existe</string>
+  <string name="openWindowErrorNoFiles">Nenhuma imagem salva</string>
+
+  <string name="paidFunction">Esta função está disponível apenas na versão Pro do FP sDraw.
+    \nVocê gostaria de baixar essa versão agora?
+  </string>
+  <string name="fullVersionInfoMainMenuDemoRemaining">Você pode usar a versão completa por %DAYS% dias. Toque para mais...</string>
+  <string name="fullVersionInfoMainMenuDemoExpired">As funcionalidades da versão gratuita são limitadas. Como remover esses limites?</string>
+  <string name="fullVersionInfoBuyInGooglePlay">Compre na Google Play</string>
+  <string name="fullVersionInfoDemoExpired1">Alguns recursos foram desativados, pois o período de avaliação expirou.</string>
+  <string name="fullVersionInfoDemoExpired2">Período de avaliação</string>
+  <string name="fullVersionInfoDemoExpired3End">Expirado</string>
+  <string name="fullVersionInfoDemoExpired4">Eu recomendo que você compre o FP sDraw Pro, que não possui limitações. Dessa forma, você vai estar apoiando o desenvolvedor.</string>
+  <string name="fullVersionInfoDemoExpired5">Se não quiser comprar o FP sDraw Pro, você pode começar o período de avaliação de novo. É gratuito.</string>
+  <string name="fullVersionInfoDemoExpired6">Você pode fazer isso quantas vezes quiser.</string>
+  <string name="fullVersionInfoDemoExpired7">Começar nova avaliação</string>
+  <string name="fullVersionInfoMotivation1">Desenvolvimento de softwares requer muito tempo e esforço, mas eu trabalho duro para deixar meus usuários felizes com softwares de qualidade.
+    \nEste aplicativo não contém anúncios, pois isso causa uma má impressão e aumenta o tamanho do arquivo. Para mim, a qualidade do aplicativo é mais importante.
+    \nVocê pode apoiar o desenvolvedor ao comprar a versão Pro e ganhar acesso ilimitado a:
+  </string>
+  <string name="fullVersionInfoMotivation2">Zoom;</string>
+  <string name="fullVersionInfoMotivation3">Acesso rápido à paleta;</string>
+  <string name="fullVersionInfoMotivation4">Acesso rápido ao seletor de ferramentas;</string>
+  <string name="fullVersionInfoMotivation5">Paleta na parte inferior da tela;</string>
+  <string name="fullVersionInfoMotivation6">Seletor de ferramentas na parte inferior da tela;</string>
+  <string name="fullVersionInfoMotivation7">Retirar a marca d\'água do \"FP sDraw\".</string>
+  <string name="fullVersionInfoMotivation8">A criação deste aplicativo consumiu centenas (!) de horas em programação, design e desenho dos ícones.
+    \nEstou satisfeito com o resultado, pois gosto do aplicativo e o utilizo frequentemente para minhas necessidades pessoais.
+    \nAlém disso, fico feliz em poder compartilhá-lo e sinto que meu tempo não foi desperdiçado.
+    \nGostaria de expressar minha gratidão a todos que me ajudaram no processo de desenvolvimento e testes! Essas pessoas estão listadas na janela \"Sobre\".
+  </string>
+  <string name="fullVersionInfoDemoRemaining1">Período de avaliação</string>
+  <string name="fullVersionInfoDemoRemaining2">Dias de avaliação restantes:</string>
+  <string name="fullVersionInfoDemoRemaining3">Dias em que você não usar o aplicativo não serão contados.</string>
+  <string name="fullVersionInfoDemoRemaining4">Quando o período de avaliação expirar, alguns recursos serão desativados.</string>
+  <string name="fullVersionInfoDemoRemaining5">Este aplicativo não tem anúncios.</string>
+  <string name="fullVersionInfoDemoRemaining6">Se não quiser comprar o FP sDraw Pro, você pode recomeçar o período de avaliação quando ele acabar.</string>
+  <string name="fullVersionInfoDemoRemaining7">Você pode fazer isso quantas vezes quiser.</string>
+  <string name="fullVersionInfoDemoRemaining8">Alguns recursos que você está utilizando agora têm limite de tempo.</string>
+  <string name="fullVersionInfoActivity1">Reiniciar contador</string>
+  <string name="fullVersionInfoActivity2">Você quer começar um novo período de avaliação?
+    \nO novo período de avaliação será iniciado após reiniciar o contador e você poderá usar todas as funcionalidades gratuitamente.
+    \nSe você gosta deste aplicativo, considere a compra do FP sDraw Pro para apoiar o desenvolvedor.
+  </string>
+  <string name="fullVersionInfoActivity3">Reiniciar</string>
+  <string name="fullVersionInfoActivity4">Cancelar</string>
+  <string name="fullVersionInfoActivity5">Sucesso</string>
+  <string name="fullVersionInfoActivity6">Um novo período de avaliação foi iniciado.
+    \nVocê poderá usar todos os recursos do FP sDraw após reiniciar o programa.
+    \nAproveite!
+  </string>
+
+  <string name="fullVersionInfoSettingsDemoRemaining">Esta função está disponível sob período de avaliação</string>
+  <string name="fullVersionInfoSettingsDemoExpired">Esta função está disponível no FP sDraw Pro</string>
+
+  <string name="title_pro_info">Informação sobre o FP sDraw Pro</string>
+  <string name="title_add_text">Adicionar texto</string>
+  <string name="title_openfile">Abrir arquivo</string>
+  <string name="thisIsFreeVersion">Você está usando a versão gratuita do programa. Ela permite que você use todos os recursos gratuitamente. Mas você pode apoiar o desenvolvedor ao comprar a versão Pro.</string>
+  <string name="moreInfo">Mais informações...</string>
+  <string name="drawingSavedAs">Imagem salva como</string>
+
+  <string name="permissionsNoteText">Este aplicativo faz uso das seguintes permissões:
+      \n
+      \n
+      \nandroid.permission.WRITE_EXTERNAL_STORAGE
+      \nGravar no cartão sd - é necessário para salvar imagens.
+      \n
+      \n
+      \nandroid.permission.VIBRATE
+      \nVibração - é necessária para vibrar ao pressionar alguns botões.
+      \n
+      \n
+      \nandroid.permission.READ_PHONE_STATE
+      \nÉ necessária para identificar precisamente a orientação da tela(0, 90, 270, 180) e permite rotacionar imagens corretamente.
+  </string>
+
+  <string name="unsupportedOnYourDevice">Não suportado no seu dspositivo</string>
+  <string name="applyCode">Aplicar código</string>
+  <string name="opening">Abrindo...</string>
+  <string name="deleteBackground">Deletar fundo</string>
+  <string name="analyzingImage">Analisando imagem...</string>
+  <string name="inserting">Inserindo...</string>
+  <string name="saveFragmentWithTransparency">Salvar fragmento com transparência</string>
+  <string name="saveFragment">Salvar fragmento</string>
+  <string name="loading">Carregando...</string>
+  <string name="insert_fit">Encaixar na tela</string>
+  <string name="error_saving_saving">Erro ao salvar imagem</string>
+  <string name="error_saving_writing_file">Erro ao gravar arquivo</string>
+  <string name="error_saving_compressing">Erro ao comprimir imagem</string>
+    <string name="permissionNeededFileAccess">Este recurso requer acesso à permissão de armazenamento</string>
+  <string name="save_error_folder">Não é possível criar pasta para salvar o arquivo. Cheque o caminho da pasta na tela \"Outras configurações\".</string>
+  <string name="no_gallery_app">Seu dispositivo não tem nenhum aplicativo de galeria. Instalar galeria para usar este recurso</string>
+  <string name="text_input_next">Próximo</string>
+  <string name="text_input_hint">Digite aqui</string>
+    <string name="text_input_frame_hint">Selecione o tipo de quadro</string>
+  <string name="text_input_alignment_hint">Selecione o alinhamento do texto</string>
+    <string name="text_input_font_hint">Selecione a fonte do texto</string>
+  <string name="text_input_no_fonts">Nenhuma fonte encontrada em seu sistema.</string>
+  <string name="text_input_no_fonts_hint">Você pode usar suas próprias fontes TTF colocando-as em uma pasta. \nSe você não tiver acesso a esta pasta pelo telefone, use o computador. \nEndereço da pasta:</string>
+  <string name="text_input_fonts_from_folder">Fontes da pasta</string>
+  <string name="settings_palette_edit_clone">Cor do clone</string>
+  <string name="settings_palette_edit_delete">Apagar cor</string>
+  <string name="settings_palette_edit_edit">Editar cor</string>
+  <string name="settings_palette_edit_delete_lasterror">Você não pode deletar a última cor disponível</string>
+    <string name="instrument_selector_content">Conteúdo do seletor de instrumentos</string>
+    <string name="onscreen_instrument_list_error_select_minimum_two">Selecione no mínimo 2 instrumentos</string>
+    <string name="buy_pro">Comprar Pro</string>
+    <string name="reset_trial">Redefinir avaliação</string>
+    <string name="two_fingers_zoom">Zoom com dois dedos</string>
+  <string name="two_fingers_zoom_tip">Se ativado, tocar na tela com dois dedos ativará o zoom. Se desativado, tocar na tela com dois dedos desenhará duas linhas.</string>
+    <string name="mosaic">Mosaico</string>
+  <string name="mosaic_size">Tamanho do mosaico</string>
+    <string name="replace_by_current_color">Substituir pela cor atual</string>
+  <string name="save_enter_image_size">Digite o tamanho da imagem</string>
+  <string name="save_enter_image_size_tip">A imagem será salva com esta resolução</string>
+  <string name="save_width">Largura</string>
+  <string name="save_height">Altura</string>
+  <string name="save_save_fragment_with_fixed_size">Salvar fragmento com tamanho fixo</string>
+  <string name="save_size_must_be_not_empty">O tamanho não deve estar vazio</string>
+  <string name="save_size_is_too_small">O tamanho é muito pequeno</string>
+  <string name="save_size_is_too_big">O tamanho é muito grande</string>
+  <string name="save_not_enough_memory">Não há memória suficiente para salvar o fragmento</string>
+    <string name="fill_threshold">Limite de preenchimento</string>
+  <string name="grid_opacity">Opacidade da grade</string>
+    <string name="warning_instruments_can_not_fit">Se você escolher muitas ferramentas, o programa funcionará instável (elas podem não caber na tela)</string>
+  <string name="binarize_image">Binarizar</string>
+  <string name="delete">Deletar</string>
+    <string name="SettingsVibrationEnable">Ativar feedback de vibração</string>
+  <string name="SettingsVibrationEnableHint">Quando ativado, o programa usará vibração para confirmar ações como clique longo ou clique de botão. Quando desativado, a vibração ainda pode ocorrer se for controlada pelo sistema.</string>
+    <string name="arrow">Seta</string>
+  <string name="oval">Oval</string>
+  <string name="rectangle">Retângulo</string>
+  <string name="triangle">Triângulo</string>
+    <string name="any_input_device">Qualquer dispositivo de entrada</string>
+    <string name="back">Voltar</string>
+  <string name="change_language">Mudar idioma</string>
+  <string name="change_language_hint">Abra o menu do sistema para alterar o idioma do aplicativo. A alteração do idioma reiniciará o aplicativo. Salve seu trabalho antes de alterar o idioma.</string>
+  <string name="menuPaste">Colar</string>
+    <string name="saveFragmentWithoutGrid">Salvar Without grade</string>
+    <string name="squircle">Squircle</string>
+    <string name="menu">Menu</string>
+  <string name="edit">Editar</string>
+    <string name="selectMenuStripContent">Selecione o conteúdo da faixa de menu</string>
+  <string name="selectMenuStripContentHint">Você pode selecionar qualquer quantidade de botões. Se houver poucos botões, o menu estará localizado no centro da faixa.</string>
+    <string name="uiElementsForm">Formulário de elementos da interface do usuário</string>
+  <string name="form_squircle">Botões de squírculo</string>
+  <string name="form_circle">Botões de círculo</string>
+  <string name="form_rectangle">Botões retangulares</string>
+    <string name="form_rectangle_hint">Muitos botões e formulários na UI terão formato retangular e também em muitos lugares os arredondamentos dos retângulos serão removidos. Para ver qualquer diferença, role ou insira novamente as configurações.</string>
+  <string name="form_circle_hint">Muitos botões e formulários na IU terão formato de círculo. Para ver qualquer diferença, role ou insira novamente as configurações.</string>
+  <string name="form_squircle_hint">Muitos botões e formulários na IU terão formato de esquilo. Para ver qualquer diferença, role ou insira novamente as configurações.</string>
+  <string name="orientation_auto_hint">
+    Quando \"Automático\" estiver selecionado e você ativar a rotação da tela nas configurações do dispositivo, a interface do programa girará quando você girar o telefone.
+     \nDurante a rotação, o desenho pode ser cortado ou não salvo porque as dimensões da tela estão mudando.
+     \nA cópia anterior do seu desenho está sempre disponível na tela \"Abrir -> Salvar automaticamente\".
+     \nLembre-se de que os desenhos podem ser abertos para edição apenas na mesma orientação em que você os criou, devido à diferença de dimensões.
+     \nEssas alterações de configuração serão aplicadas somente após a reinicialização do programa.</string>
+    <string name="orientation_landscape_hint">
+      O Canvas sempre permanecerá na orientação paisagem (horizontal), mesmo se você segurar o dispositivo verticalmente.
+     \nLembre-se de que os desenhos podem ser abertos para edição apenas na mesma orientação em que você os criou, devido à diferença de dimensões.
+     \nEssas alterações de configuração serão aplicadas somente após a reinicialização do programa.
+    </string>
+    <string name="orientation_portrait_hint">
+       O Canvas sempre permanecerá na orientação retrato (vertical), mesmo se você segurar o dispositivo horizontalmente.
+     \nLembre-se de que os desenhos podem ser abertos para edição apenas na mesma orientação em que você os criou, devido à diferença de dimensões.
+     \nEssas alterações de configuração serão aplicadas somente após a reinicialização do programa.</string>
+    <string name="scale_one_to_one">Dimensionar para o tamanho original da imagem</string>
+
+  <string name="show_help_messages">Mostrar as dicas</string>
+  <string name="show_help_messages_tip">Durante o trabalho com o programa, a ajuda estará disponível em diversos locais, o que facilitará o entendimento da funcionalidade.</string>
+
+    <string name="hint_brush">
+          👋 Bem-vindo ao FP sDraw!
+          \nVocê está na tela da tela e a ferramenta \“Pincel\” está selecionada.
+          \n
+          \n🖌️ A ferramenta \“Pincel\” desenha uma linha da cor selecionada. O tamanho da linha pode ser selecionado no menu.
+          \n🔺 Para usar a borracha, mantenha pressionado o botão de aumentar volume.
+          \n🔻 Para usar gestos, pressione e segure o botão de diminuir volume.
+          \n📖 Para abrir rapidamente o menu, pressione os botões de volume.
+          \n🔍 Você pode usar dois dedos para dimensionar a imagem.
+          \n
+          \n☝️ Deslize pela tela para começar a desenhar.
+    </string>
+  <string name="hint_gesture">
+          Você está na tela de entrada de gestos. A partir daqui você pode obter acesso rápido às funções usadas com frequência.
+          \n
+          \n☝️ Para realizar a ação correspondente, deslize com um dedo.
+          \n🔍 Você pode usar dois dedos para ampliar a imagem.</string>
+  <string name="hint_eraser">
+          Você está na tela de desenho e a ferramenta \“Borracha\” está selecionada.
+          \n
+          \n◻️ A ferramenta \"Borracha\" apaga a área de desenho. O tamanho da área pode ser selecionado no menu.
+          \n
+          \n☝️ Para começar a apagar, deslize sobre uma parte não vazia da imagem.
+  </string>
+    <string name="hint_filler">
+          Você está na tela de desenho e a ferramenta \“Pintura\” está selecionada.
+          \n
+          \n🏺 A ferramenta \"Pintura\" pinta um fragmento de tonalidade semelhante com a cor selecionada. A tolerância do fragmento pode ser selecionada no menu.
+          \n
+          \n☝️ Para pintar um fragmento, toque nele.
+    </string>
+  <string name="hint_mosaic">
+          Você está na tela de desenho e a ferramenta \“Mosaico\” está selecionada.
+          \n
+          \n🧩 A ferramenta \"Mosaico\" substitui um fragmento de uma imagem por cubos de cor semelhante.
+          \n O tamanho dos cubos pode ser selecionado no menu. Via de regra, é usado para ocultar objetos.
+          \n
+          \n☝️ Para aplicar, deslize sobre um fragmento não vazio da imagem.
+  </string>
+  <string name="hint_text_adding">
+         Você está na tela de desenho e a ferramenta \"Texto\" está selecionada.
+         \n
+         \n🅰️ A ferramenta "Texto" permite adicionar uma inscrição a uma imagem. Quando o texto já está colocado na imagem, ele não pode ser editado, apenas cancelado.
+         \nPrimeiro, o texto é inserido e depois colocado na imagem.
+         \n
+         \n☝️ Para começar a digitar, toque em qualquer lugar da imagem. A seguir, você pode posicionar o texto no local desejado da imagem.
+  </string>
+  <string name="hint_text_moving">
+         ↔️ Você está na tela de movimentação de texto. Selecione a posição do texto. Após a confirmação, ele passará a fazer parte do desenho e o texto não poderá ser alterado.
+         \n
+         \n☝️ Deslize com um dedo para mover o texto.
+         \n🔍 Você pode ampliar ou girar o texto com dois dedos.
+         \n🧰 Para realizar outra ação, use o menu. Pressionar o botão de menu mostrará a finalidade do botão.
+  </string>
+  <string name="hint_selection_selecting">
+         Você está na tela de desenho e a ferramenta Selecionar e Mover está selecionada.
+         \n
+         \n✂️ A ferramenta Selecionar e Mover permite circular uma parte de um desenho e movê-lo, redimensioná-lo, girá-lo ou copiá-lo.
+         \n
+         \n☝️ Para destacar um fragmento, circule-o. Então você pode movê-lo.
+         \n⬇️ Você também pode selecionar com o cursor ou selecionar a imagem inteira usando os botões abaixo.
+   </string>
+  <string name="hint_selection_precision">
+         Você está na tela da tela e a ferramenta para selecionar um fragmento da imagem usando o cursor está selecionada.
+         \n
+         \n✂️ O realce com o cursor permite circular a área desejada com polígonos, posicionando cada ponto manualmente, conseguindo um contorno mais preciso.
+         \n
+         \n☝️ Para mover o cursor, deslize o dedo pela tela.
+         \n☝️ Para adicionar um ponto no local onde o cursor está agora - clique na tela.
+         \n⬇️ Para cancelar, remover o último ponto ou completar a seleção, utilize os botões abaixo.
+   </string>
+   <string name="hint_selection_moving">
+         Você está na tela para mover o fragmento da imagem selecionada.
+         \n
+         \n☝️ Para mover o fragmento, deslize o dedo pela tela.
+         \n🔍 Use dois dedos para ampliar ou girar.
+         \n🧰 Para realizar outra ação, use o menu. Pressionar o botão de menu mostrará a finalidade do botão.
+   </string>
+    <string name="hint_figures_creating">
+         Você está na tela da tela e a ferramenta "Desenho de forma" está selecionada.
+         \n
+         \n🔳 A ferramenta \"Desenhar formas\" permite adicionar primitivas gráficas, como retângulo, triângulo, etc., ao desenho.
+         \n
+         \n☝️Para criar uma forma, clique em seu ícone no menu abaixo. A seguir, você pode colocar a forma no local desejado do desenho.
+   </string>
+    <string name="hint_figures_moving">
+         Você está na tela de movimentação da forma criada.
+         \n
+         \n☝️ Para mover a figura, deslize o dedo pela tela.
+         \n🔍 Use dois dedos para ampliar ou girar.
+         \n🧰 Para realizar outra ação, use o menu. Pressionar o botão de menu mostrará a finalidade do botão.
+   </string>
+    <string name="hint_line">
+         Você está na tela de desenho e a ferramenta \"Desenho de linha\" está selecionada.
+         \n
+         \n📏 A ferramenta permite adicionar uma linha reta entre dois pontos ao desenho.
+         \nA espessura da linha pode ser selecionada no menu.
+         \n
+         \n☝️ Passe o dedo pela tela para desenhar uma linha.
+   </string>
+    <string name="hint_accurate">
+         Você está na tela da tela e a ferramenta "Pincel preciso" está selecionada.
+         \n
+         \n↖️ O pincel preciso permite desenhar pequenos elementos com a ajuda do cursor.
+         \nO desenho ocorre somente quando o botão de desenho no canto superior esquerdo da tela é pressionado.
+         \nVocê pode mover o cursor pela tela com um dedo e pressionar o botão de desenho com o outro dedo. Funcionará mesmo se você fizer isso ao mesmo tempo.
+         \nNo modo Pincel de precisão, você pode usar diversas ferramentas, que podem ser alternadas usando o botão no canto inferior direito da tela.
+         \n
+         \n☝️ Para desenhar, mova o cursor até o local desejado do desenho, mantenha pressionado o botão de desenho e, sem soltar o botão de desenho, deslize com outro dedo enquanto move o cursor.
+   </string>
+    <string name="hint_pipette">
+         Você está na tela de desenho e a ferramenta "Conta-gotas" está selecionada.
+         \n
+         \n🎨 O conta-gotas permite escolher a cor do desenho na imagem.
+         \nA cor será selecionada como atual, mas não será adicionada à paleta. Você pode adicioná-lo à paleta nas configurações pressionando a cor na paleta.
+         \nO conta-gotas não leva em consideração a transparência da cor.
+         \nA cor selecionada e seu código são exibidos no canto superior esquerdo da tela.
+         \n
+         \n☝️ Para escolher uma cor, deslize sobre uma parte não vazia da imagem.
+    </string>
+    <string name="hint_pixelmode">
+        Você ampliou muito o zoom, o modo pixel art está ativado.
+         \n
+         \n🔍 Neste modo, são definidas configurações que simplificam o desenho pixel por pixel:
+         \n- A grade que separa os pixels é exibida.
+         \n- O tamanho do pincel e da borracha está definido como 1 pixel.
+         \n- Suavização de contornos, transparência desativada.
+         \n
+         \n☝️ Assim que você reduzir a escala da imagem, as configurações voltarão ao que eram.
+    </string>
+    <string name="saveSelectedFragment">Salvar fragmento selecionado</string>
+    <string name="copy_selected_to_clipboard">Copiar selecionado para a área de transferência</string>
+    <string name="insert_copy">Inserir cópia</string>
+    <string name="cross">Cross</string>
+    <string name="useOnlySPenInUi">Use apenas caneta digital mesmo na interface</string>
+    <string name="enable_hardware_acceleration">A aceleração de hardware</string>
+    <string name="enable_hardware_accelerationTip">A aceleração de hardware da tela permite que o sistema desenhe a interface de maneira mais suave com a ajuda de uma placa de vídeo.
+     \nEm alguns dispositivos, acontece que ele começa a ficar lento durante o desenho. Isso significa que este dispositivo gasta muito tempo transferindo a imagem para a placa de vídeo.
+     \nPara evitar esta transferência, você pode desativar a aceleração de hardware. Isso degradará a suavidade da interface em geral, mas melhorará a suavidade ao desenhar.
+    </string>
+</resources>
