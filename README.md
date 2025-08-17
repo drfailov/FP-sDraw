@@ -4,6 +4,10 @@ The newer version is still private, so this is the perfect place to start your o
 <br/>
 **FP sDraw - Your Pocket Sketchpad! 🖌️ Lightweight, fast, and ad-free - open and start drawing instantly.**
 
+## How to build  
+How to download and build with Android Studio: <br/>
+https://www.youtube.com/watch?v=OjEJvLPtk6U&ab_channel=DrFailov
+
 
 
 <img src="Images/Screenshot_20250817_161824_One UI Home.jpg" width="20%"/>    <img src="Images/Screenshot_20250817_161832_FP sDraw Pro.jpg" width="20%"/>
