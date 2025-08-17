@@ -1,12 +1,13 @@
 # FP-sDraw
-This is an older version of the project, open for exploring, tweaking, and experimenting. The newer version is still private, so this is the perfect place to start your own experiments!  FP sDraw - Your Pocket Sketchpad! 🖌️ Lightweight, fast, and ad-free - open and start drawing instantly.
+This is an older version of the project, open for exploring, tweaking, and experimenting. <br/>
+The newer version is still private, so this is the perfect place to start your own experiments!   <br/>
+<br/>
+**FP sDraw - Your Pocket Sketchpad! 🖌️ Lightweight, fast, and ad-free - open and start drawing instantly.**
 
 
 
-<img src="Images/Screenshot_20250817_161824_One UI Home.jpg" width="40%"/>
-<img src="Images/Screenshot_20250817_161832_FP sDraw Pro.jpg" width="40%"/>
-<img src="Images/Screenshot_20250817_161849_FP sDraw Pro.jpg" width="40%"/>
-<img src="Images/Screenshot_20250817_161855_FP sDraw Pro.jpg" width="40%"/>
+<img src="Images/Screenshot_20250817_161824_One UI Home.jpg" width="30%"/>    <img src="Images/Screenshot_20250817_161832_FP sDraw Pro.jpg" width="30%"/>
+<img src="Images/Screenshot_20250817_161849_FP sDraw Pro.jpg" width="30%"/>    <img src="Images/Screenshot_20250817_161855_FP sDraw Pro.jpg" width="30%"/>
 
 
 
