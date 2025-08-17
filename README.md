@@ -3,10 +3,10 @@ This is an older version of the project, open for exploring, tweaking, and exper
 
 
 
-![](Images/Screenshot_20250817_161824_One UI Home.jpg) {width=40%}
-![](Images/Screenshot_20250817_161832_FP sDraw Pro.jpg) {width=40%}
-![](Images/Screenshot_20250817_161849_FP sDraw Pro.jpg) {width=40%}
-![](Images/Screenshot_20250817_161855_FP sDraw Pro.jpg) {width=40%}
+<img src="Images/Screenshot_20250817_161824_One UI Home.jpg" width="40%"/>
+<img src="Images/Screenshot_20250817_161832_FP sDraw Pro.jpg" width="40%"/>
+<img src="Images/Screenshot_20250817_161849_FP sDraw Pro.jpg" width="40%"/>
+<img src="Images/Screenshot_20250817_161855_FP sDraw Pro.jpg" width="40%"/>
 
 
 
@@ -21,7 +21,7 @@ FP sDraw is a simple and lightweight drawing app — no ads, no clutter, just op
 - 🎭 Create a meme or add text to a photo.
 - 🧠 Sketch a diagram, note, or quick idea.
 - 🖼️ Highlight or mark something directly on an image.
-- 🎨 Experiment with different styles — lines, shapes, airbrush, text, and more.
+- 🎨 Experiment with different styles — lines, shapes, text, and more.
 
 ---
 
@@ -40,31 +40,15 @@ FP sDraw is a simple and lightweight drawing app — no ads, no clutter, just op
 ---
 
 ## Drawing tools:
-- 🪄 Layers — organize complex sketches.
 - 🖼️ Insert from gallery.
 - 🖍 Brush and eraser.
-- 🌬 Airbrush.
 - 🏺 Fill.
 - 🅰️ Text.
 - ✂️ Selection.
 - 🔳 Shapes.
-- 📏 Ruler.
 - 🎨 Eyedropper.
 - 🧩 Mosaic.
 - 🖱 Precision brush.
-
----
-
-## Free vs Pro version
-
-The free version is fully functional — no essential features locked.  
-
-Pro version adds a few nice extras:
-- 💛 Support the developer.
-- 🖼️ Option to remove “sDraw” label from saved images.
-- 🚫 Removes the message in the main menu.
-- 🙅‍♂ No more “Buy Pro” reminders when saving.
-- ⚡️ Projects from the free version are fully compatible with Pro.
 
 ---
 
